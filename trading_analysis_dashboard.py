@@ -46,6 +46,7 @@ Ticker_options = []
 for ticker in range(0,len(list)):
     Ticker_options.append({'label':list.Name.loc[ticker],'value':list.Ticker.loc[ticker]})
     
+server= app.server
 
 app.layout = html.Div([
     dcc.Tabs([
