@@ -8,6 +8,6 @@ This is a pure, just for fun, project to build an open source trading analysis d
 The initial purpose of the project is:
 1 dowload multiple tickers historical price data from yfinance
 2 crunch numbers with pandas to create additional technical indicators columns to the main dataframe
-3 create a table scanner with updated price information
+3 create an interactive  table-scanner with updated price information
 4 create an interactive chart to visualize price movements
-5 finally deploy the app to the web
+
