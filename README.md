@@ -1,13 +1,14 @@
 # trading_analysis_dashboard
-This is a python based app for technical analysis applied to stocks trading.
+This python project's purpose is to create a technical analysis scanner for stocks trading.
+A stocks scanner is a powerful traders decision support to select stocks according to custom technical setups among thousands of existing financial instruments.
 
-I am a quant developer working for trading firms and hedge funds.
+Steps:
 
-This is a pure, just for fun, project to build an open source trading analysis dashboard.
+1. Get stocks price data 
+2. Create technical indicators
+3. Apply technical indicators to the entire stocks universe
+4. Produce an interactive table with a linked chart
 
-The initial purpose of the project is:
-1 dowload multiple tickers historical price data from yfinance
-2 crunch numbers with pandas to create additional technical indicators columns to the main dataframe
-3 create an interactive  table-scanner with updated price information
-4 create an interactive chart to visualize price movements
+My benchnark for this project is Tradestation Scanner-Radarscreen or Multicharts Screener
 
+ 
